@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WebCoder</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="wc-style.css">
+</head>
+<body>
+	<div id="header">
+		<div id="mylogo">
+			<a href="WebCoder.html" >WebCoder</a>
+		</div>
+
+		<div id="buttonContainer">
+			<div class="toggleButton active" id="html">HTML</div>
+			<div class="toggleButton" id="css">CSS</div>
+			<div class="toggleButton" id="javascript">JavaScript</div>
+			<div class="toggleButton active" id="output">Output</div>
+		</div>
+		<form >
+			
+			<input type="submit" name="" id="loginbutton">
+
+			<input type="password" name=""  placeholder="Password">
+			<input type="email" name="" placeholder="Email">
+		</form>
+	</div>
+	<div id="bodyConatiner">
+
+		<textarea id="htmlPanel" style="height: 598px; width: 676px;" class="panel"><p id="para">Hello ! Welcome to WebCoder </p></textarea>
+		<textarea id="cssPanel" class="panel hidden">p{color:red;}</textarea>
+		<textarea id="javascriptPanel" class="panel hidden">document.getElementById("para").innerHTML = "Hello ! Welcome to WebCoder";</textarea>
+		<iframe id="outputPanel" class="panel"></iframe>
+
+	</div>
+
+	
+	
+
+	<script src="webcoderjs.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+body
+{
+	font-family: sans-serif;
+	margin:0;
+	padding: 0;
+}
+textarea
+{
+	
+	resize:none;
+	border-top: none;
+	border-color: #00171d;
+}
+iframe
+{
+	border:none;
+	color:white;
+}
+input
+{
+	
+	margin-left: 10px;
+	margin-top: 5px;
+	
+	font-family: geneva;
+	
+	border-radius: 3px;
+	float: right;
+	padding: 3.5px;
+	outline: none;
+}
+#header
+{
+	background-color: #343a40;
+	color:white;
+	padding: 10px;
+	height: 30px;
+
+}
+#mylogo
+{
+	float: left;
+	font-weight: bold;
+	font-size:130%;
+	padding:3px 5px;
+	cursor:pointer;
+}
+a
+{
+	text-decoration: none;
+	color:white;
+}
+a:hover
+{
+	color:orange;
+}
+#buttonContainer
+{
+	margin:0 auto;
+	width: 221px;
+}
+.toggleButton
+{
+	float:left;
+	border:1px solid white;
+	padding: 7px;
+	border-right: none;
+	font-size: 80%;
+	cursor: pointer;
+}
+#html
+{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+#output
+{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-right:1px solid white;
+}
+.active
+{
+	background-color: #D3D3D3;
+}
+.highlightButton
+{
+	background-color: orange;
+}
+.panel
+{
+	
+float:left;
+border-left: none;
+
+}
+.hidden
+{
+	display:none;
+}
+button
+{
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+	padding:5px;
+	border-radius: 5px;
+	outline: none;
+	color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+   	cursor: pointer;
+}

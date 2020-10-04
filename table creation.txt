@@ -1,0 +1,6 @@
+CREATE TABLE users(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    uname varchar(255),
+    email varchar(255),
+    passowrd varchar(255)
+    );
